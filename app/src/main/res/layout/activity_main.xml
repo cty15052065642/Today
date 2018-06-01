@@ -14,21 +14,62 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/activity_main_bottom_btn_first"
-            style="@style/activity_main_bottom_btn"
-            android:text="@string/activity_main_bottom_btn_first"/>
-        <Button
-            android:id="@+id/activity_main_bottom_btn_watermelon"
-            style="@style/activity_main_bottom_btn"
-            android:text="@string/activity_main_bottom_btn_watermelon"/>
-        <Button
-            android:id="@+id/activity_main_bottom_btn_top_line"
-            style="@style/activity_main_bottom_btn"
-            android:text="@string/activity_main_bottom_btn_top_line"/>
-        <Button
-            android:id="@+id/activity_main_bottom_btn_small_video"
-            style="@style/activity_main_bottom_btn"
-            android:text="@string/activity_main_bottom_btn_small_video"/>
+
+        <LinearLayout
+            style="@style/activity_main_bottom_ll">
+            <ImageView
+                android:id="@+id/activity_main_bottom_iv_first"
+                android:background="@drawable/ic_copyright_black_36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/activity_main_bottom_tv_first"
+                android:text="@string/activity_main_bottom_tv_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/activity_main_bottom_ll">
+            <ImageView
+                android:id="@+id/activity_main_bottom_iv_watermelon"
+                android:background="@drawable/ic_copyright_black_36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/activity_main_bottom_tv_watermelon"
+                android:text="@string/activity_main_bottom_tv_watermelon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/activity_main_bottom_ll">
+            <ImageView
+                android:id="@+id/activity_main_bottom_iv_top_line"
+                android:background="@drawable/ic_copyright_black_36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/activity_main_bottom_tv_top_line"
+                android:text="@string/activity_main_bottom_tv_top_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/activity_main_bottom_ll">
+            <ImageView
+                android:id="@+id/activity_main_bottom_iv_small_video"
+                android:background="@drawable/ic_copyright_black_36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/activity_main_bottom_tv_small_video"
+                android:text="@string/activity_main_bottom_tv_small_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
