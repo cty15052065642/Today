@@ -13,6 +13,9 @@ import java.util.ArrayList;
 
 import base.BaseFragment;
 import fragment.FragmentFrist;
+import fragment.FragmentSmallVideo;
+import fragment.FragmentTopLine;
+import fragment.FragmentWatermelon;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -48,10 +51,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 ft.replace(R.id.activity_main_frame,new FragmentFrist());
                 break;
             case R.id.activity_main_bottom_iv_watermelon:
+                ft.replace(R.id.activity_main_frame,new FragmentWatermelon());
                 break;
             case R.id.activity_main_bottom_iv_top_line:
+                ft.replace(R.id.activity_main_frame,new FragmentTopLine());
                 break;
             case R.id.activity_main_bottom_iv_small_video:
+                ft.replace(R.id.activity_main_frame,new FragmentSmallVideo());
                 break;
         }
         ft.commit();
