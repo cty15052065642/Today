@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent">
     <include
-        android:id="@+id/activity_main_header" />
+        android:id="@+id/activity_main_header"
+        layout="@layout/activity_main_frame_small_video_header"/>
 
 </LinearLayout>

@@ -13,7 +13,7 @@
         android:id="@+id/activity_main_frame_top_line_header_et_search"
         android:layout_weight="10"
         android:layout_width="0dp"
-        android:hint="@string/activity_main_bottom_tv_top_line"
+        android:hint="@string/activity_main_frame_top_line_header_et_search"
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:layout_marginRight="10dp"

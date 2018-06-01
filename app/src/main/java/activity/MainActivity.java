@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         top_line_iv = (ImageView)findViewById(R.id.activity_main_bottom_iv_top_line);
         small_video_iv = (ImageView)findViewById(R.id.activity_main_bottom_iv_small_video);
         first_iv.setOnClickListener(this);
-        first_iv.setOnClickListener(this);
-        first_iv.setOnClickListener(this);
-        first_iv.setOnClickListener(this);
+        watermelon_iv.setOnClickListener(this);
+        top_line_iv.setOnClickListener(this);
+        small_video_iv.setOnClickListener(this);
 
     }
 
